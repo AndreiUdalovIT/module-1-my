@@ -49,7 +49,7 @@ h3 {
 
 .background__image {
     height: 765px;
-    background-image: url(/resources/background.png);
+    background-image: url(../resources/background.png);
     background-size: cover;
     background-position: 50%;
     background-repeat: no-repeat;
