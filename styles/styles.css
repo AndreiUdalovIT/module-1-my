@@ -1,0 +1,361 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    width: 100%;
+    font-family: "IBM Plex Mono", monospace;
+    font-weight: 400;
+    font-style: normal;
+}
+
+header {
+    margin: 0 auto;
+    width: 1400px;
+    position: relative;
+    padding-right: 124px;
+    padding-top: 33px;
+    padding-left: 123px;
+    margin-bottom: 259px;
+}
+
+footer {
+    background-color: #000;
+}
+
+h1 {
+    width: 919px;
+    color: #1BFF07;
+    font-size: 80px;
+    line-height: 70px;
+    letter-spacing: -2.4px;
+}
+
+h2 {
+    color: #FFF;
+    font-size: 55px;
+    line-height: normal;
+    letter-spacing: -1.65px;
+    margin-bottom: 40px;
+}
+
+h3 {
+    color: #1BFF07;
+    font-size: 55px;
+    line-height: normal;
+    letter-spacing: -1.65px;
+    margin-bottom: 15px;
+}
+
+.background__image {
+    height: 765px;
+    background-image: url(/resources/background.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.logo {
+    position: relative;
+    display: inline-block;
+    width: 130px;
+    height: 39px;
+    background-color: #000000;
+    border-radius: 100px;
+    margin-top: 3px;
+}
+
+.header__nav {
+    float: right;
+}
+
+.logo__text {
+    position: absolute;
+    left: 9px;
+    top: -9px;
+    color: #1BFF07;
+    font-size: 42.414px;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -4.666px;
+    text-decoration: none;
+}
+
+.header__link {
+    color: #FFF;
+    font-size: 18px;
+    line-height: normal;
+    letter-spacing: -0.54px;
+    text-decoration: none;
+    margin-left: 42px;
+}
+
+.header__link:nth-last-child(4) {
+    margin-left: 0;
+}
+
+.header__link:hover {
+    color: #1BFF07;
+}
+
+.about__container {
+    margin: 0 auto;
+    width: 1400px;
+    padding-left: 119px;
+}
+
+.about__text {
+    width: 430px;
+    color: #FFF;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    padding-left: 6px;
+    margin-bottom: 27px;
+}
+
+.project, .skills {
+    background-color: #000000;
+}
+
+.project__container, .skills_container {
+    margin: 0 auto;
+    width: 1400px;
+    padding-top: 150px;
+    padding-left: 120px;
+    padding-right: 125px;
+}
+
+.skills_container {
+    padding-bottom: 150px;
+}
+
+.background__project__image-1, .background__project__image-2, .background__project__image-3 {
+    background-repeat: no-repeat;
+    margin-left: 5px;
+} 
+
+.background__project__image-1 {
+    background-image: url(../resources/project-1.png);
+}
+
+.background__project__image-2{
+    background-image: url(../resources/project-2.png);
+}
+
+.background__project__image-3{
+    background-image: url(../resources/project-3.png);
+    margin-bottom: 80px;
+}
+
+.project__link {
+    display: block;
+    width: 1150px;
+    height: 550px;
+    text-decoration: none;
+}
+
+.project__title {
+    color: #FFF;
+    font-size: 35px;
+    line-height: normal;
+    letter-spacing: -1.05px;
+    padding-top: 410px;
+    padding-left: 50px;
+    margin-bottom: 5px;
+}
+
+.project__p {
+    color: #FFF;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    padding-left: 50px;
+}
+
+.watchproject__button {
+    display: block;
+    width: 582px;
+    height: 153px;
+    background-color: #1BFF07;
+    border-radius: 10px;
+    margin-left:  5px;
+    padding-top: 56px;
+    color: #000;
+    font-size: 30px;
+    line-height: normal;
+    letter-spacing: -0.9px;
+    text-align: center;
+    text-decoration: none;
+}
+
+.watchproject__button:hover {
+   color: #1BFF07;
+   border: 2px solid #1BFF07;
+   background-color: #000000; 
+}
+
+
+.skills__title {
+    margin-left: 3px;
+    margin-bottom: 104px;
+}
+
+.skills__name-1, .skills__name-2, .skills__name-3, .skills__name-4, .skills__title-2 {
+    position: relative;
+    color: #1BFF07;
+    font-size: 35px;
+    line-height: normal;
+    letter-spacing: -1.05px;
+    margin-left: 3px;
+    margin-bottom: 15px;
+}
+
+.skills__name-4 {
+    width: 651px;
+}
+
+.skills__name-1::before {
+    content: '';
+    background-image: url(../resources/skills-icon-1.png);
+    display: block;
+    width: 45px;
+    height: 44px;
+    position: absolute;
+    top: -56px;
+    left: 2px;
+}
+
+.skills__name-2::before, .skills__name-3::before, .skills__name-4::before {
+    content: '';
+    display: block;
+    width: 45px;
+    height: 44px;
+    position: absolute;
+    top: -60px;
+    left: 2px;
+}
+
+.skills__name-2::before {
+    background-image: url(../resources/skills-icon-2.png);
+}
+
+.skills__name-3::before {
+    background-image: url(../resources/skills-icon-3.png);
+}
+
+.skills__name-4::before {
+    background-image: url(../resources/skills-icon-4.png);
+}
+
+.skills__p, .skills__p-2, .footer_text {
+    color: #FFF;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
+.skills__p {
+    width: 778px;
+    margin-left: 3px;
+    margin-bottom: 120px;
+}
+
+.skills__p:nth-last-child(1) {
+    margin-bottom: 150px;
+}
+
+.skills__title-2 {
+    width: 403px;
+    color: #FFF;
+    margin-left: 5px;
+    margin-bottom: 74px;
+}
+
+.skills__image {
+    margin-left: 5px;
+}
+
+.skills__block-1, .skills__block-2, .skills__block-3 {
+    width: 1150px;
+    margin-left: 5px;
+    background-color: #191C19;
+    border-radius: 30px;
+    padding-left: 40px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.skills__block-1 {
+    margin-bottom: 74px;
+}
+
+.skills__block-2 {
+    margin-bottom: 137px;
+    padding-bottom: 69px;
+}
+
+.skills__p-2 {
+    width: 749px;
+}
+
+.contacts {
+    background-color: #000;
+    padding-bottom: 150px;
+}
+
+.contacts__image {
+    margin: 0 auto;
+    width: 1400px;
+    height: 717px;
+    border-radius: 33px;
+    background-image: url(../resources/contact.png);
+    padding-top: 320px;
+    padding-left: 125px;
+}
+
+.contacts__title {
+    color: #FFF;
+    font-size: 35px;
+    line-height: 60px;
+    letter-spacing: -1.05px;
+    margin-bottom: 28px;
+}
+
+.contacts__link {
+    color: #FFF;
+    font-size: 60px;
+    line-height: 60px;
+    letter-spacing: -1.8px;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+.contacts__link:hover {
+    color: #1BFF07;
+}
+
+.footer_container {
+    margin: 0 auto;
+    width: 1400px;
+    background-color: #FFF;
+    border-radius: 30px 30px 0 0;
+    padding-left: 125px;
+    padding-top: 76px;
+    padding-bottom: 28px;
+}
+
+.footer_text {
+    font-family: Manrope;
+    color: #000;
+    margin-bottom: 66px;
+}
+
+.footer_text-2 {
+    font-family: Manrope;
+    color: #000;
+    font-size: 20px;
+    line-height: normal;
+    letter-spacing: -0.6px;
+    opacity: 0.5;
+}
