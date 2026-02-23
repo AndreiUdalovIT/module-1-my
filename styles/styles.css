@@ -9,18 +9,22 @@ body {
     font-style: normal;
 }
 
-header {
-    margin: 0 auto;
-    width: 1400px;
-    position: relative;
-    padding-right: 124px;
-    padding-top: 33px;
-    padding-left: 123px;
-    margin-bottom: 259px;
+.body_fixed {
+    overflow: hidden;
 }
 
-footer {
+header, .project__container {
+    margin: 0 auto;
+    width: 1150px;
+}
+
+footer, .project, .skills {
     background-color: #000;
+}
+
+p, a {
+    line-height: normal;
+    text-decoration: none;
 }
 
 h1 {
@@ -36,7 +40,6 @@ h2 {
     font-size: 55px;
     line-height: normal;
     letter-spacing: -1.65px;
-    margin-bottom: 40px;
 }
 
 h3 {
@@ -47,78 +50,46 @@ h3 {
     margin-bottom: 15px;
 }
 
-.background__image {
-    height: 765px;
-    background-image: url(../resources/background.png);
-    background-size: cover;
-    background-position: 50%;
-    background-repeat: no-repeat;
+button {
+    border: 0;
+    padding: 0;
 }
 
-.logo {
-    position: relative;
-    display: inline-block;
-    width: 130px;
-    height: 39px;
-    background-color: #000000;
-    border-radius: 100px;
-    margin-top: 3px;
+@media (max-width: 1199px) {
+
+    header, .about__container, .project__container  {
+        width: 100%;
+    }
+
+    h1 {
+        width: 727px;
+        font-size: 60px;
+        letter-spacing: -1.8px; 
+    }
+
+    h2 {
+        font-size: 45px;
+        letter-spacing: -1.35px;
+    }
 }
 
-.header__nav {
-    float: right;
+@media (max-width: 767px) {
+
+    h1 {
+        width: 100%;
+        font-size: 40px;
+        line-height: 47px; 
+        letter-spacing: -1.2px;
+    }
+
+    h2 {
+        width: 268px;
+        font-size: 30px;
+        letter-spacing: -0.9px;
+    }
 }
 
-.logo__text {
-    position: absolute;
-    left: 9px;
-    top: -9px;
-    color: #1BFF07;
-    font-size: 42.414px;
-    font-weight: 700;
-    line-height: normal;
-    letter-spacing: -4.666px;
-    text-decoration: none;
-}
-
-.header__link {
-    color: #FFF;
-    font-size: 18px;
-    line-height: normal;
-    letter-spacing: -0.54px;
-    text-decoration: none;
-    margin-left: 42px;
-}
-
-.header__link:nth-last-child(4) {
-    margin-left: 0;
-}
-
-.header__link:hover {
-    color: #1BFF07;
-}
-
-.about__container {
-    margin: 0 auto;
-    width: 1400px;
-    padding-left: 119px;
-}
-
-.about__text {
-    width: 430px;
-    color: #FFF;
-    font-size: 20px;
-    line-height: normal;
-    letter-spacing: -0.6px;
-    padding-left: 6px;
-    margin-bottom: 27px;
-}
-
-.project, .skills {
-    background-color: #000000;
-}
-
-.project__container, .skills_container {
+.skills_container {
     margin: 0 auto;
     width: 1400px;
     padding-top: 150px;
@@ -128,71 +99,6 @@ h3 {
 
 .skills_container {
     padding-bottom: 150px;
-}
-
-.background__project__image-1, .background__project__image-2, .background__project__image-3 {
-    background-repeat: no-repeat;
-    margin-left: 5px;
-} 
-
-.background__project__image-1 {
-    background-image: url(../resources/project-1.png);
-}
-
-.background__project__image-2{
-    background-image: url(../resources/project-2.png);
-}
-
-.background__project__image-3{
-    background-image: url(../resources/project-3.png);
-    margin-bottom: 80px;
-}
-
-.project__link {
-    display: block;
-    width: 1150px;
-    height: 550px;
-    text-decoration: none;
-}
-
-.project__title {
-    color: #FFF;
-    font-size: 35px;
-    line-height: normal;
-    letter-spacing: -1.05px;
-    padding-top: 410px;
-    padding-left: 50px;
-    margin-bottom: 5px;
-}
-
-.project__p {
-    color: #FFF;
-    font-size: 30px;
-    line-height: normal;
-    letter-spacing: -0.9px;
-    padding-left: 50px;
-}
-
-.watchproject__button {
-    display: block;
-    width: 582px;
-    height: 153px;
-    background-color: #1BFF07;
-    border-radius: 10px;
-    margin-left:  5px;
-    padding-top: 56px;
-    color: #000;
-    font-size: 30px;
-    line-height: normal;
-    letter-spacing: -0.9px;
-    text-align: center;
-    text-decoration: none;
-}
-
-.watchproject__button:hover {
-   color: #1BFF07;
-   border: 2px solid #1BFF07;
-   background-color: #000000; 
 }
 
 

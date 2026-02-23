@@ -2,27 +2,80 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Портфолио</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Manrope&display=swap" rel="stylesheet">
+    <link rel="icon" href="resources/favicon.png" type="image/png">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/header.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/project.css">
 </head>
 <body>
-    <section class="background">
+    <section class="about">
         <div class="background__image">   
             <header>
-                <div class="logo">
-                    <a class="logo__text" href="index.html">ORLOV</a>
+                <div class="header__flex">
+                    <div class="logo">
+                        <a class="logo__text" href="index.html">ORLOV</a>
+                    </div>
+                    <nav>
+                        <ul class="header__nav__flex">
+                            <li>
+                                <a class="header__link" href="#project">портфолио</a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="#skills">компетенции</a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="#skills__2">услуги</a>
+                            </li>
+                            <li>
+                                <a class="header__link" href="#contacts">контакты</a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <button class="burger-btn js-burger-btn"></button>
                 </div>
-                <nav class="header__nav">
-                    <a class="header__link" href="#project">портфолио</a>
-                    <a class="header__link" href="#skills">компетенции</a>
-                    <a class="header__link" href="#skills__2">услуги</a>
-                    <a class="header__link" href="#contacts">контакты</a>
-                </nav>
+                <div class="burger js-burger">
+                    <div class="burger__content js-burger__content">
+                        <div class="logo logo__border">
+                            <a class="logo__text" href="index.html">ORLOV</a>
+                        </div>
+                        <nav>
+                            <ul class="header__nav__flex__burger">
+                                <li>
+                                    <a class="header__link__burger n1" href="#project">портфолио</a>
+                                </li>
+                                <li>
+                                    <a class="header__link__burger n2" href="#skills">компетенции</a>
+                                </li>
+                                <li>
+                                    <a class="header__link__burger n3" href="#skills__2">услуги</a>
+                                </li>
+                                <li>
+                                    <a class="header__link__burger n4" href="#contacts">контакты</a>
+                                </li>
+                            </ul>
+                        </nav>
+                        <p class="header__contacts">для связи:</p>
+                        <ul class="header__contacts__flex">
+                            <li>
+                                <a class="header__contacts__link" href="https://desktop.telegram.org/">telegram</a>
+                            </li>
+                            <li>
+                                <a class="header__contacts__link" href="mailto:bamos@yandex.ru">mail</a>
+                            </li>
+                            <li>
+                                <a class="header__contacts__link" href="https://www.google.com/">instagram</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
             </header>  
             <div class="about__container">
                 <p class="about__text">
@@ -33,35 +86,48 @@
                 <h1>Привет, я Саша — фронтенд разработчик и дизайнер сайтов</h1>
             </div>
         </div> 
-    </section>  
+    </section> 
     <main>
         <section class="project">
             <div class="project__container">
-                <h2 id="project">Самые свежие проекты</h2> 
-                <ul>    
-                    <li class="background__project__image-1">
-                        <a class="project__link" href="/">
-                            <p class="project__title">Realhome</p>
-                            <p class="project__p">дизайн, верстка, настройка</p>
-                        </a>
+                <h2 class="project__title" id="project">Самые свежие проекты</h2> 
+                <ul class="project__container__inner">
+                    <li>
+                        <div class="project__container__img">   
+                            <a href="">
+                                <img class="project__img project__img-1 " src="resources/project-1.png" alt="">                                
+                                <p class="project__text__block">дизайн интерьера</p>
+                                <p class="project__name">Метрика</p>
+                                <p class="project__info">верстка, настройка</p>
+                            </a>
+                        </div> 
                     </li>
-                    <li class="background__project__image-2">
-                        <a class="project__link" href="/">
-                            <p class="project__title">GLASS</p>
-                            <p class="project__p">разработка интерфейса</p>
-                        </a>
+                    <li>
+                        <div class="project__container__img">  
+                            <a href="">
+                                <img class="project__img" src="resources/project-2.png" alt="">
+                                <p class="project__text__block">презентация продукта</p>
+                                <p class="project__name">Nothing </p>
+                                <p class="project__info">верстка, настройка</p>
+                            </a>
+                        </div>
                     </li>
-                    <li class="background__project__image-3">
-                        <a class="project__link" href="/">
-                            <p class="project__title">Fesiyen</p>
-                            <p class="project__p">разработка интерфейса</p>
-                        </a>
+                    <li>
+                        <div class="project__container__img">   
+                            <a href="">
+                                <img class="project__img" src="resources/project-3.png" alt="">
+                                <p class="project__text__block">заказ путешествий</p>
+                                <p class="project__name">TOPTRIP</p>
+                                <p class="project__info">верстка</p>
+                            </a>
+                        </div> 
                     </li>
-                </ul>  
+                </ul>
                 <a class="watchproject__button" href="">Смотреть все проекты</a> 
             </div>
         </section>
-        <section class="skills">
+        <script src="burger.js"></script> 
+        <!--<section class="skills">
             <div class="skills_container">
                 <h2 class="skills__title" id="skills">Мои компетенции</h2>
                 <ul>
@@ -79,7 +145,7 @@
                              и интерактивного пользовательского интерфейса. Хороший фронтенд разработчик 
                              должен быть знаком с основами JavaScript, включая работу с DOM-деревом, 
                              асинхронными запросами и манипуляцией данными на стороне клиента.
-                        </p>
+                        </p><
                     </li>
                     <li>
                         <p class="skills__name-3">Работа с библиотеками и фреймворками</p>

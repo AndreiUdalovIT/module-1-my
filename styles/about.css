@@ -1,0 +1,56 @@
+.background__image {
+    height: 765px;
+    background-image: url(../resources/background.png);
+    background-size: cover;
+    background-position: 50%;
+    background-repeat: no-repeat;
+}
+
+.about__container {
+    margin: 0 auto;
+    width: 1160px;
+}
+
+.about__text {
+    width: 430px;
+    color: #FFF;
+    font-size: 20px;
+    letter-spacing: -0.6px;
+    padding-left: 5px;
+    margin-bottom: 27px;
+}
+
+@media (max-width: 1199px) {
+
+    .background__image {
+        background-image: url(../resources/background-tablet.png)
+    }
+
+    .about__container {
+        padding-left: 10px;
+        width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+
+    .background__image {
+        background-image: url(../resources/background-phone.png);
+        height: 716px;
+        
+    }
+
+    .about__container {
+        padding-right: 12px;
+    }
+
+    .about__text {
+        width: 310px;
+        font-size: 15px;
+        line-height: 20px;
+        letter-spacing: -0.45px;
+        padding-left: 2px;
+        margin-bottom: 12px;
+    }
+
+}
