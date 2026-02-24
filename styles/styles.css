@@ -13,7 +13,7 @@ body {
     overflow: hidden;
 }
 
-header, .project__container {
+header, .project__container, .skills_container {
     margin: 0 auto;
     width: 1150px;
 }
@@ -55,9 +55,16 @@ button {
     padding: 0;
 }
 
+.skills__p, .footer_text {
+    color: #FFF;
+    font-size: 22px;
+    line-height: normal;
+    letter-spacing: -0.66px;
+}
+
 @media (max-width: 1199px) {
 
-    header, .about__container, .project__container  {
+    header, .about__container, .project__container, .skills_container  {
         width: 100%;
     }
 
@@ -83,92 +90,9 @@ button {
     }
 
     h2 {
-        width: 268px;
         font-size: 30px;
         letter-spacing: -0.9px;
     }
-}
-
-.skills_container {
-    margin: 0 auto;
-    width: 1400px;
-    padding-top: 150px;
-    padding-left: 120px;
-    padding-right: 125px;
-}
-
-.skills_container {
-    padding-bottom: 150px;
-}
-
-
-.skills__title {
-    margin-left: 3px;
-    margin-bottom: 104px;
-}
-
-.skills__name-1, .skills__name-2, .skills__name-3, .skills__name-4, .skills__title-2 {
-    position: relative;
-    color: #1BFF07;
-    font-size: 35px;
-    line-height: normal;
-    letter-spacing: -1.05px;
-    margin-left: 3px;
-    margin-bottom: 15px;
-}
-
-.skills__name-4 {
-    width: 651px;
-}
-
-.skills__name-1::before {
-    content: '';
-    background-image: url(../resources/skills-icon-1.png);
-    display: block;
-    width: 45px;
-    height: 44px;
-    position: absolute;
-    top: -56px;
-    left: 2px;
-}
-
-.skills__name-2::before, .skills__name-3::before, .skills__name-4::before {
-    content: '';
-    display: block;
-    width: 45px;
-    height: 44px;
-    position: absolute;
-    top: -60px;
-    left: 2px;
-}
-
-.skills__name-2::before {
-    background-image: url(../resources/skills-icon-2.png);
-}
-
-.skills__name-3::before {
-    background-image: url(../resources/skills-icon-3.png);
-}
-
-.skills__name-4::before {
-    background-image: url(../resources/skills-icon-4.png);
-}
-
-.skills__p, .skills__p-2, .footer_text {
-    color: #FFF;
-    font-size: 22px;
-    line-height: normal;
-    letter-spacing: -0.66px;
-}
-
-.skills__p {
-    width: 778px;
-    margin-left: 3px;
-    margin-bottom: 120px;
-}
-
-.skills__p:nth-last-child(1) {
-    margin-bottom: 150px;
 }
 
 .skills__title-2 {

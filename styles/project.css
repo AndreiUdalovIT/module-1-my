@@ -146,6 +146,10 @@
         margin-bottom: 70px;
     }
 
+    .project__title {
+        width: 268px;
+    }
+
     .project__img-1 {
         object-position: 10%;
     }
