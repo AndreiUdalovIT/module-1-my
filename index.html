@@ -15,6 +15,7 @@
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/project.css">
     <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/skills-2.css">
 </head>
 <body>
     <section class="about">
@@ -164,26 +165,35 @@
                         </p>
                     </li>
                 </ul>
-                <script src="burger.js"></script>
-                <!--<p class="skills__title-2" id="skills__2">Помогаю реализовать широкий спектр задач</p>
-                <ul>
+            </div>
+        </section>
+        <section class="skills__2">
+            <div class="skills_container skills__padding">
+                <p class="skills__title-2" id="skills__2">Помогаю реализовать широкий спектр задач</p>
+                <ul class="skills__flex__all">
                     <li>
-                        <img class="skills__image" src="resources/skills-1.png" alt="">      
-                        <div class="skills__block-1">
-                            <h3>Разработка сайта под ключ</h3>
-                            <p class="skills__text">
+                        <picture>
+                            <source media="(max-width:767px)" srcset="resources/skills-1-phone.png">
+                            <img class="skills__image" src="resources/skills-1.png" alt="">      
+                        </picture>
+                        <div class="skills__flex-2">
+                            <h3 class="experience__name">Разработка сайта под ключ</h3>
+                            <p class="skills__text skills__text-2">
                                 Это создание дизайн веб-сайтов, созданный для удобства
-                                пользователя и решения бизнес-задач<br>
+                                пользователя и решения бизнес-задач
                                 Сайты должны быть понятными и удобными, ведь чем понятнее 
                                 сайт, тем быстрее пользователь совершит целевое действие
                             </p>
                         </div>
                     </li>
                     <li>
-                        <img class="skills__image" src="resources/skills-2.png" alt="">      
-                        <div class="skills__block-2">
-                            <h3>Верстка сайтов</h3>
-                            <p class="skills__text">
+                        <picture>
+                            <source media="(max-width:767px)" srcset="resources/skills-2-phone.png">
+                            <img class="skills__image" src="resources/skills-2.png" alt="">      
+                        </picture>
+                        <div class="skills__flex-2">
+                            <h3 class="experience__name">Верстка сайтов</h3>
+                            <p class="skills__text skills__text-2">
                                 Это процесс создания HTML-документов и применения к ним стилей на CSS. 
                                 Фронтенд разработчик может помочь создать привлекательный 
                                 и удобный интерфейс для вашего сайта
@@ -191,11 +201,14 @@
                         </div>
                     </li>
                     <li>
-                        <img class="skills__image" src="resources/skills-3.png" alt="">      
-                        <div class="skills__block-3">
-                            <h3>Разработка мобильного интерфейса</h3>
-                            <p class="skills__text">
-                                Это процесс создания интерактивных элементов на странице<br> с помощью JavaScript. 
+                        <picture>
+                            <source media="(max-width:767px)" srcset="resources/skills-3-phone.png">
+                            <img class="skills__image" src="resources/skills-3.png" alt="">      
+                        </picture>
+                        <div class="skills__flex-2">
+                            <h3 class="experience__name">Разработка мобильного интерфейса</h3>
+                            <p class="skills__text skills__text-2">
+                                Это процесс создания интерактивных элементов на странице с помощью JavaScript. 
                                 Фронтенд разработчик может помочь создать динамический 
                                 и удобный пользовательский интерфейс для вашего сайта или приложения.
                             </p>
@@ -204,7 +217,7 @@
                 </ul>  
             </div>
         </section>
-        <section class="contacts">
+        <!--<section class="contacts">
             <div class="contacts__image" id="contacts">
                 <p class="contacts__title">для связи:</p>
                 <div class="contacts__link">

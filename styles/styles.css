@@ -18,7 +18,7 @@ header, .project__container, .skills_container {
     width: 1150px;
 }
 
-footer, .project, .skills {
+footer, .project, .skills, .skills__2 {
     background-color: #000;
 }
 
@@ -45,9 +45,8 @@ h2 {
 h3 {
     color: #1BFF07;
     font-size: 55px;
-    line-height: normal;
+    line-height: 110%;
     letter-spacing: -1.65px;
-    margin-bottom: 15px;
 }
 
 button {
@@ -55,11 +54,17 @@ button {
     padding: 0;
 }
 
-.skills__p, .footer_text {
+.skills__text, .footer_text {
     color: #FFF;
     font-size: 22px;
     line-height: normal;
     letter-spacing: -0.66px;
+}
+
+.project__name, .skills__title-2 {
+    color: #FFF;
+    font-size: 35px;
+    letter-spacing: -1.05px;
 }
 
 @media (max-width: 1199px) {
@@ -74,9 +79,20 @@ button {
         letter-spacing: -1.8px; 
     }
 
-    h2 {
+    h2, h3 {
         font-size: 45px;
         letter-spacing: -1.35px;
+    }
+
+
+    .skills__text, .footer_text {
+        font-size: 18px;
+        letter-spacing: -0.54px;
+    }
+
+    .project__name, .skills__title-2 {
+        font-size: 28px;
+        letter-spacing: -0.84px;
     }
 }
 
@@ -93,40 +109,19 @@ button {
         font-size: 30px;
         letter-spacing: -0.9px;
     }
+
+    h3 {
+        font-size: 35px;
+        letter-spacing: -1.05px;
+    }
 }
 
-.skills__title-2 {
-    width: 403px;
-    color: #FFF;
-    margin-left: 5px;
-    margin-bottom: 74px;
-}
-
-.skills__image {
-    margin-left: 5px;
-}
 
 .skills__block-1, .skills__block-2, .skills__block-3 {
     width: 1150px;
-    margin-left: 5px;
     background-color: #191C19;
     border-radius: 30px;
-    padding-left: 40px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-}
-
-.skills__block-1 {
-    margin-bottom: 74px;
-}
-
-.skills__block-2 {
-    margin-bottom: 137px;
-    padding-bottom: 69px;
-}
-
-.skills__p-2 {
-    width: 749px;
+    padding: 40px 45px 40px 40px;
 }
 
 .contacts {

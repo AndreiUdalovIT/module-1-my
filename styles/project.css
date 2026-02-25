@@ -37,9 +37,6 @@
     position: absolute;
     bottom: 94px;
     left: 50px;
-    color: #FFF;
-    font-size: 35px;
-    letter-spacing: -1.05px;
 }
 
 .project__info {
@@ -56,9 +53,10 @@
     width: 582px;
     background-color: #1BFF07;
     border-radius: 10px;
+    border: 2px solid #1BFF07;
     color: #000;
     font-size: 30px;
-    line-height: 153px;
+    line-height: 149px;
     letter-spacing: -0.9px;
     text-align: center;
 }
@@ -109,8 +107,6 @@
     .project__name {
         bottom: 76px;
         left: 40px;
-        font-size: 28px;
-        letter-spacing: -0.84px;
     }
 
     .project__info {

@@ -56,12 +56,6 @@
     background-image: url(../resources/skills-icon-4.png);
 }
 
-.skills__text, .footer_text {
-    color: #FFF;
-    font-size: 22px;
-    letter-spacing: -0.66px;
-}
-
 @media (max-width: 1199px) {
 
     .skills_container {
@@ -111,11 +105,6 @@
 
     .skills__name-4::before {
         background-image: url(../resources/skills-icon-4-tablet.png);
-    }
-
-    .skills__text, .footer_text {
-        font-size: 18px;
-        letter-spacing: -0.54px;
     }
 }
 
