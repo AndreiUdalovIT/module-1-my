@@ -1,6 +1,6 @@
 header {
     padding-top: 34px;
-    margin-bottom: 259px;
+    margin-bottom: 259px !important;
 }
 
 .header__flex {
@@ -55,7 +55,7 @@ header {
     header {
         padding: 21px 3px 0 13px;
         height: 63px;
-        margin-bottom: 303px; 
+        margin-bottom: 303px !important; 
     }
 
     .header__nav__flex {
@@ -160,6 +160,6 @@ header {
     @media (max-width: 767px) {
 
     header {
-        margin-bottom: 276px;
+        margin-bottom: 276px !important;
     }
 }

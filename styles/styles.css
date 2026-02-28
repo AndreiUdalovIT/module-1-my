@@ -1,3 +1,11 @@
+@import "../styles/header.css";
+@import "../styles/about.css";
+@import "../styles/project.css";
+@import "../styles/skills.css";
+@import "../styles/skills-2.css";
+@import "../styles/contacts.css";
+@import "../styles/footer.css";
+
 html {
     scroll-behavior: smooth;
 }
@@ -18,9 +26,9 @@ header, .project__container, .skills_container {
     width: 1150px;
 }
 
-footer, .project, .skills, .skills__2 {
+footer, .project, .skills, .skills__2, .contacts {
     background-color: #000;
-}
+} 
 
 p, a {
     line-height: normal;
@@ -54,7 +62,7 @@ button {
     padding: 0;
 }
 
-.skills__text, .footer_text {
+.skills__text {
     color: #FFF;
     font-size: 22px;
     line-height: normal;
@@ -85,7 +93,7 @@ button {
     }
 
 
-    .skills__text, .footer_text {
+    .skills__text {
         font-size: 18px;
         letter-spacing: -0.54px;
     }
@@ -99,7 +107,7 @@ button {
 @media (max-width: 767px) {
 
     h1 {
-        width: 100%;
+        width: 353px;
         font-size: 40px;
         line-height: 47px; 
         letter-spacing: -1.2px;
@@ -116,71 +124,3 @@ button {
     }
 }
 
-
-.skills__block-1, .skills__block-2, .skills__block-3 {
-    width: 1150px;
-    background-color: #191C19;
-    border-radius: 30px;
-    padding: 40px 45px 40px 40px;
-}
-
-.contacts {
-    background-color: #000;
-    padding-bottom: 150px;
-}
-
-.contacts__image {
-    margin: 0 auto;
-    width: 1400px;
-    height: 717px;
-    border-radius: 33px;
-    background-image: url(../resources/contact.png);
-    padding-top: 320px;
-    padding-left: 125px;
-}
-
-.contacts__title {
-    color: #FFF;
-    font-size: 35px;
-    line-height: 60px;
-    letter-spacing: -1.05px;
-    margin-bottom: 28px;
-}
-
-.contacts__link {
-    color: #FFF;
-    font-size: 60px;
-    line-height: 60px;
-    letter-spacing: -1.8px;
-    margin-bottom: 20px;
-    text-decoration: none;
-}
-
-.contacts__link:hover {
-    color: #1BFF07;
-}
-
-.footer_container {
-    margin: 0 auto;
-    width: 1400px;
-    background-color: #FFF;
-    border-radius: 30px 30px 0 0;
-    padding-left: 125px;
-    padding-top: 76px;
-    padding-bottom: 28px;
-}
-
-.footer_text {
-    font-family: Manrope;
-    color: #000;
-    margin-bottom: 66px;
-}
-
-.footer_text-2 {
-    font-family: Manrope;
-    color: #000;
-    font-size: 20px;
-    line-height: normal;
-    letter-spacing: -0.6px;
-    opacity: 0.5;
-}

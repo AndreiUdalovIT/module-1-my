@@ -11,11 +11,6 @@
     <link rel="icon" href="resources/favicon.png" type="image/png">
     <link rel="stylesheet" href="styles/reset.css">
     <link rel="stylesheet" href="styles/styles.css">
-    <link rel="stylesheet" href="styles/header.css">
-    <link rel="stylesheet" href="styles/about.css">
-    <link rel="stylesheet" href="styles/project.css">
-    <link rel="stylesheet" href="styles/skills.css">
-    <link rel="stylesheet" href="styles/skills-2.css">
 </head>
 <body>
     <section class="about">
@@ -217,26 +212,39 @@
                 </ul>  
             </div>
         </section>
-        <!--<section class="contacts">
+        <section class="contacts">
             <div class="contacts__image" id="contacts">
-                <p class="contacts__title">для связи:</p>
-                <div class="contacts__link">
-                    <a class="contacts__link" href="https://www.twitch.tv/">instagram</a>
+                <p class="contacts__title">Для связи со мной заполните простую форму</p>
+                <div class="contacts__input__flex">
+                    <input class="contacts__input" type="text" placeholder="Имя Фамилия">
+                    <input class="contacts__input" type="email" placeholder="example@mail.com">
                 </div>
-                <div class="contacts__link">
-                    <a class="contacts__link" href="https://desktop.telegram.org/">telegram</a>
-                </div>
-                <div class="contacts__link">
-                    <a class="contacts__link" href="mailto:testmail@gmail.com">mail</a>
-                </div>
+                <button class="contacts__button">Отправить</button>
             </div>
         </section>
     </main>
     <footer>
         <div class="footer_container">
-            <p class="footer_text">Портфолио фротнтенд-разработчика Саши Орлова</p>
-            <p class="footer_text-2">Все права защищены. 2023</p>
+            <div class="footer__flex">
+                <p class="footer_text footer__text__width">Портфолио фротнтенд-разработчика Саши Орлова</p>
+                <ul class="footer__contacts__flex">
+                    <li>
+                        <a class="footer_text" href="mailto:bamos@yandex.ru">mail</a>
+                    </li>
+                    <li>
+                        <a class="footer_text" href="https://desktop.telegram.org/">telegram</a>
+                    </li>
+                    <li>
+                        <a class="footer_text" href="https://www.google.com/">instagram</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="footer__flex-2">
+                <p class="footer_text-2">Все права защищены. 2026</p>
+                <p class="footer_text-2">политика обработки данных</p>
+            </div>
         </div>
-    </footer> 
+    </footer>
+    <script src="burger.js"></script> 
 </body>
 </html>
